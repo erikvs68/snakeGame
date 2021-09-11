@@ -1,18 +1,40 @@
 html, body {
     margin: 10;
     padding: 10;
+    background-color:yellow;
 }
 
 .grid {
-	display: flex;
-	flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     width: 200px;
     height: 200px;
     border: solid 2px black;
+    background-color: #fff;
+    margin: 0 auto;
 }
 
 .square {
     width: 20px;
     height: 20px;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
     background-color: blue;
+}
+h1, h2{
+    text-align: center;
+    color: #006f00;
+}
+button{
+   display: flex; 
+    margin: 0 auto;
+    padding: 10px 20px;
+    color:#fff;
+    background-color: #006f00;
+    
 }
